@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="j3dcore">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/Java libraries/j3d-1_5_2-windows-amd64/j3d-1_5_2-windows-amd64/j3d-jre/lib/ext/j3dcore.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/Java libraries/j3d-1_5_2-windows-amd64/j3d-1_5_2-windows-amd64/j3d-jre/lib/ext/j3dutils.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/Java libraries/j3d-1_5_2-windows-amd64/j3d-1_5_2-windows-amd64/j3d-jre/lib/ext/vecmath.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
