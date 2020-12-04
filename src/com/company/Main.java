@@ -1,7 +1,9 @@
 package com.company;
 
+import com.company.calculations.Line;
 import com.company.calculations.MyMatrix;
 import com.company.calculations.MyVector;
+import com.company.calculations.Point;
 import com.company.visualization.Screen;
 import com.company.visualization.StandardJFrame;
 import com.company.visualization.TwoDimensionalKartesianSystem;
@@ -16,13 +18,17 @@ public class Main {
     public static void main(String[] args) throws UnmatchedDimensionException {
 
         StandardJFrame frame = new StandardJFrame();
-
+        frame.setTitle("TwoDimensionalSystem");
         TwoDimensionalKartesianSystem system = new TwoDimensionalKartesianSystem();
+
+
+        Line line1 = new Line(system, 2,1,1);
+        MyVector v1 = new MyVector(new Point(0,0), new Point(3,1));
+        system.addLine(line1);
+        system.addVector(v1);
+
         frame.getContentPane().add(system);
         frame.setSize(frame.getPreferredSize());
-
-        MyMatrix matrix = new MyMatrix(3, 2, 1,1,1,1,1,1);
-
         frame.addComponentListener(new ComponentAdapter() {
             @Override
             public void componentResized(ComponentEvent e) {
@@ -33,7 +39,7 @@ public class Main {
         });
 
     }
-    public static void main2(String[] args)
+/*    public static void main2(String[] args)
       throws UnmatchedDimensionException, IllegalParameterException {
         StandardJFrame frame = new StandardJFrame();
 
@@ -46,5 +52,5 @@ public class Main {
         frame.setSize(frame.getPreferredSize());
         frame.setSize(Toolkit.getDefaultToolkit().getScreenSize());
         frame.setVisible(true);
-    }
+    }*/
 }

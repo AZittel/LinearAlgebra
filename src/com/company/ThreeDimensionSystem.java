@@ -189,7 +189,7 @@ public class ThreeDimensionSystem extends Application {
     handleKeyboard(scene, world);
     handleMouse(scene, world);
 
-    primaryStage.setTitle("Molecule Sample Application");
+    primaryStage.setTitle("ThreeDimensionalSystem");
     primaryStage.setScene(scene);
     primaryStage.show();
     scene.setCamera(camera);
@@ -215,7 +215,7 @@ public class ThreeDimensionSystem extends Application {
 
     MyVector v4 = new MyVector(1,1,0);
     MyVector v5 = new MyVector(1,0,1);
-    System.out.println(v4.dotProduct(v5) + " sdasd");
+
 
 
 
