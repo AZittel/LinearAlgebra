@@ -11,7 +11,7 @@
 <li>Creating a javaFX application with fxml</li>
 <li>Expanding my Java knowledge</li>
 <li>JUnit testing</li>
-
+</ul>
 <h1>Description</h1>
 <p>I created this project while listening to my linear algebra 
 lecture to apply the theory directly.</p>
