@@ -16,7 +16,7 @@
 <h3>Description</h3>
 <p>I created this project while listening to my linear algebra 
 lecture to apply the theory directly.</p>
-<p>This projects only purpose was to visualize and apply linear 
+<p>This projects only purpose was to visualize and apply basic linear algebra
 rules.</p>
 
 ![TwoDimension](./screenshots/twoDimensionalSystem.png)
