@@ -3,7 +3,7 @@
 <p>Execute the code from main.java or ThreeDimensionSystem.java</p>
 <p>The application should now be running</p>
 
-<h1>What I learned</h1>
+<h1>What I have learned</h1>
 <ul>
 
 <li>Applying linear algebra rules</li>
