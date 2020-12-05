@@ -1,9 +1,10 @@
-<h1>How to run the code</h1>
+# LinearAlgebra
+<h3>How to run the code</h3>
 <p>Clone the repository to a directory on your machine</p>
 <p>Execute the code from main.java or ThreeDimensionSystem.java</p>
 <p>The application should now be running</p>
 
-<h1>What I have learned</h1>
+<h3>What I have learned</h3>
 <ul>
 
 <li>Applying linear algebra rules</li>
@@ -12,7 +13,7 @@
 <li>Expanding my Java knowledge</li>
 <li>JUnit testing</li>
 </ul>
-<h1>Description</h1>
+<h3>Description</h3>
 <p>I created this project while listening to my linear algebra 
 lecture to apply the theory directly.</p>
 <p>This projects only purpose was to visualize and apply linear 
